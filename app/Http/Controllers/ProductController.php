@@ -17,6 +17,6 @@ class ProductController extends Controller
         ];
 
         $product = Product::create($input);
-        dd($product->status);
+        $product->dd();
     }
 }
